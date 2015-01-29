@@ -133,6 +133,6 @@ for (var i = 0; i < questions.length; i++) {
 }
 
 
-/* OPTIONAL: Run the following code in the console on the product page (before opening the modal), the run the main script above in the console to allow scrolling in the modal.
+/* OPTIONAL: Run the following code in the console on the product page (before opening the modal), then run the main script above in the console to allow scrolling in the modal.
 document.getElementById('quickbuy').setAttribute("style", "position: absolute;");
 */
