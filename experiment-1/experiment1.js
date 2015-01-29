@@ -1,4 +1,4 @@
-/* NOTE: First deselect "Pause on exceptions" in Chrome Dev Tools to to prevent lock-up from the carousel script. */
+/* NOTE: First deselect "Pause on exceptions" in Chrome Dev Tools (if currently activated) to to prevent lock-up from the carousel script. */
 
 // Select the slider element
 var offer = document.getElementsByClassName('home-slider');
@@ -19,7 +19,6 @@ var link = "<br><a href='#' id='newlink'>View all products featured in media &gt
 
 // Combine title, images, and link
 var magazines = title + m1 + m2 + m3 + m4 + m5 + m6 + link;
-
 
 // Insert images into .home-slider div
 offer[0].innerHTML = magazines;
